@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MOCKS DE USUSARIOS Y MASCOTAS</h1>
+    <div>
+        <h2>Ingresa la cantidad de usuarios y de mascotas a crear</h2>    
+        <form class="formData" action="/api/mocks/generatedata" method="POST">
+            <label for="users">Usuarios:</label>
+            <input type="text" name="users" class="numberUsers" placeholder="Cantidad de usuarios" required>  
+            <br>
+            <label for="pets">Mascotas:</label>
+            <input type="text" name="pets" class="numberPets" placeholder="Cantidad de mascotas" required>  
+            <br>
+            <button type="submit">Generar Datos</button>
+        </form>
+        
+    </div>
+    <link rel="stylesheet" href="./js/index.js">
+</body>
+</html>
